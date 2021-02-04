@@ -74,7 +74,7 @@ void sendDataTS(void)
   digitalWrite(trigPin2, LOW);   
   duration2 = pulseIn(echoPin2, HIGH);  
   distance2 = duration2*0.034/2; 
-  Serial.print("Distance_2: ");                       // indicator of space left in bin 1
+  Serial.print("Distance_2: ");                       // indicator of space left in bin 2
   Serial.println(distance2);    
   Serial.print("Water_Value:  ");   
   Serial.println(water_value); 
